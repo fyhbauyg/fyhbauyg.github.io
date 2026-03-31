@@ -1,0 +1,30 @@
+# Site settings
+title: "我的 GitHub 博客"
+description: "欢迎来到我的个人博客"
+baseurl: ""
+url: "https://fyhbauyg.github.io"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+
+# Author settings
+author:
+  name: "fyhbauyg"
+  email: ""
+  github: "fyhbauyg"
+
+# Social links
+github_username: fyhbauyg
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
